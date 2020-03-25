@@ -5,6 +5,7 @@ This Jupyter Notebook contains the script used to generate plots of observed tim
 In order to reproduce these results, clone this repository and clone VyPR, VyPRServer and VyPRAnalysis into this new repository.
 
 git clone git@github.com:martahan/OfflineAnalysisNotebooks.git
+
 cd OfflineAnalysisNotebooks
 git clone git@github.com:martahan/VyPRServer.git
 git clone git@github.com:martahan/VyPRAnalysis.git
