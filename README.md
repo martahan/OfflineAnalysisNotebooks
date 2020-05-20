@@ -4,25 +4,24 @@ This Jupyter Notebook contains the script used to generate plots of observed tim
 
 In order to reproduce these results, clone this repository and clone VyPR, VyPRServer and VyPRAnalysis into this new repository.
 
-git clone git@github.com:martahan/OfflineAnalysisNotebooks.git
+``git clone git@github.com:martahan/OfflineAnalysisNotebooks.git``
 
-cd OfflineAnalysisNotebooks
+``cd OfflineAnalysisNotebooks``
 
-git clone git@github.com:martahan/VyPRServer.git
+``git clone git@github.com:martahan/VyPRServer.git``
 
-git clone git@github.com:martahan/VyPRAnalysis.git
+``git clone git@github.com:martahan/VyPRAnalysis.git``
 
-git clone git@github.com:pyvypr/VyPR.git
+``git clone git@github.com:pyvypr/VyPR.git``
 
-cd VyPRServer
+``cd VyPRServer``
 
-git clone git@github.com:pyvypr/VyPR.git
+``git clone git@github.com:pyvypr/VyPR.git``
 
-cd ..
+``cd ..``
 
-cp verdicts.db VyPRServer/verdicts.db
+``cp verdicts.db VyPRServer/verdicts.db``
 
-rm verdicts.db
+``rm verdicts.db``
 
 Once you run the notebook using 'jupyter notebook' command, follow the steps described in the notebook to obtain the results.
-   
