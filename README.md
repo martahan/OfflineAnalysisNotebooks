@@ -22,6 +22,8 @@ In order to reproduce these results, clone this repository and clone VyPR, VyPRS
 
 ``cp verdicts.db VyPRServer/verdicts.db``
 
-``rm verdicts.db``
+``cp verdicts_4000_hash_check_effectiveness.db VyPRServer/verdicts_4000_hash_check_effectiveness.db``
+
+``rm verdicts.db verdicts_4000_hash_check_effectiveness.db``
 
 Once you run the notebook using 'jupyter notebook' command, follow the steps described in the notebook to obtain the results.
